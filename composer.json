@@ -1,0 +1,15 @@
+{
+    "name": "antfoot/businessauth",
+    "authors": [
+        {
+            "name": "AntFoot",
+            "email": "403664907@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AntFoot\\BusinessAuth\\": "src/"
+        }
+    }
+}
