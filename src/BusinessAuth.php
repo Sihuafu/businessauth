@@ -2,38 +2,38 @@
 
 namespace AntFoot\BusinessAuth;
 
-use Illuminate\Config\Repository;
-use Illuminate\Session\SessionManager;
-
 class BusinessAuth
 {
-    /**
-     * @var SessionManager
-     */
-    protected $session;
-    /**
-     * @var Repository
-     */
-    protected $config;
-
-    /**
-     * Packagetest constructor.
-     */
-    public function __construct(SessionManager $session, Repository $config)
+    public function __construct()
     {
-        $this->session = $session;
-        $this->config = $config;
     }
 
-    /**
-     * @param string $msg
-     *
-     * @return string
-     */
-    public function test_rtn($msg = '')
+    public function test()
     {
-        $config_arr = $this->config->get('packagetest.options');
+        dd('test');
+    }
 
-        return $msg.' <strong>from your custom develop package!</strong>>';
+    public function mobileLogin()
+    {
+    }
+
+    public function passwordLogin()
+    {
+    }
+
+    public function register()
+    {
+    }
+
+    public function logout()
+    {
+    }
+
+    public function resetPassword()
+    {
+    }
+
+    public function forgetPassword()
+    {
     }
 }

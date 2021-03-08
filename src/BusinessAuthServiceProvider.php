@@ -16,7 +16,7 @@ class BusinessAuthServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('businessauth', function ($app) {
-            return new BusinessAuth($app['session'], $app['config']);
+            return new BusinessAuth();
         });
     }
 

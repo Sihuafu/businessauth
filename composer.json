@@ -6,10 +6,5 @@
             "email": "403664907@qq.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "AntFoot\\BusinessAuth\\": "src/"
-        }
-    }
+    "require": {}
 }
